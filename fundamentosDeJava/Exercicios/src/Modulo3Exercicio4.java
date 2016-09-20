@@ -6,11 +6,21 @@ public class Modulo3Exercicio4 {
 		int elemento2 = 1;
 		
 		int result = 1;
-		
+		System.out.println(elemento1);
+		System.out.println(elemento2);
 		for (int n = 1; n <= 15; n++){
-			result = result + (n-1 + n-2);
-	
+			result = elemento1 + elemento2;
+			elemento1 = elemento2;
+			elemento2 = result;
 			System.out.println(result);
+		}
+		//correção
+		int j = 1;
+		for (int i = 0, cont = 0; cont <15; cont++){
+			System.out.print(i + " ");
+			i = i + j;
+			j = i - j;
+			
 		}
 				
 	}

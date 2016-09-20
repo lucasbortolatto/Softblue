@@ -1,0 +1,22 @@
+
+public class Modulo3Exercicio7 {
+
+	public static void main(String[] args) {
+		double nota = 0.0;
+		int cont = 0;
+		double media = 0.0;
+		while (nota != -1){
+			if (nota != -1){
+				nota = Console.readDouble();
+				media = media + nota;
+				cont += 1;	
+			}else {
+				media = (media + 1) / cont;
+			}
+		}	
+		System.out.println("Media: " + media);
+		
+
+	}
+
+}

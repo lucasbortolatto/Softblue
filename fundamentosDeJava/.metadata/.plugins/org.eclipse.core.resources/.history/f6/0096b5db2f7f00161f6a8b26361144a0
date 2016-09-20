@@ -1,0 +1,29 @@
+
+public class Modulo3Exercicio4 {
+
+	public static void main(String[] args) {
+		int elemento1 = 1;
+		int elemento2 = 1;
+		
+		int result = 1;
+		
+		for (int n = 1; n <= 15; n++){
+			result = elemento1 = + elemento2;
+//			System.out.println(elemento1);
+//			System.out.println(elemento2);
+			result = elemento1 + elemento2;
+			elemento1 = elemento2;
+			elemento2 = result;
+			System.out.println(result);
+		}
+				
+	}
+
+}
+// F1 = 1; F2 = 1
+//Fn = Fn-1+Fn-2
+//F8 =  5 + 3
+ 
+// 0, 1, 1, 2, 3, 5, 8, 13, 21,
+
+//elemento 1
