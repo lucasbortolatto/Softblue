@@ -1,0 +1,17 @@
+
+public class Modulo3Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		
+		int result = 1;
+		
+		for (int cont = 1; cont <= 15; cont++){
+			result = cont-1 + cont-2;
+			System.out.println(result);
+		}
+				
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Modulo3Exercicio4 {
+
+	public static void main(String[] args) {
+		int elemento1 = 1;
+		int elemento2 = 1;
+		
+		int result = 1;
+		
+		for (int cont = 1; cont <= 15; cont++){
+			result = result + (cont-1);
+			System.out.println(result);
+		}
+				
+
+	}
+
+}
