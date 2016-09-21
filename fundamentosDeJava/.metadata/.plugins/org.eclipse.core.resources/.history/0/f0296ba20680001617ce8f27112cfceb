@@ -1,0 +1,7 @@
+
+public class Modulo4Ponteiro {
+	int ponteiroHora;
+	int ponteiroMinuto;
+	int ponteiroSegundo;
+	int posicao;
+}

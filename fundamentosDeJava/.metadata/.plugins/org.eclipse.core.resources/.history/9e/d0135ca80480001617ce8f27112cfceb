@@ -1,0 +1,13 @@
+
+public class Modulo4Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		Modulo4Ponteiro ponteiro1 = new Modulo4Ponteiro();
+			ponteiro1.acertarRelogio
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class Modulo4Relogio {
+	int ponteiroHora;
+	int ponteiroMinuto;
+	int ponteiroSegundo;
+	
+	void acertarRelogio(int ponteiroHora, int ponteiroMinuto, int ponteiroSegundo){
+		this.ponteiroHora =+ ponteiroHora;
+		this.ponteiroMinuto =+ ponteiroMinuto;
+		this.ponteiroSegundo =+ ponteiroSegundo;
+	}
+	
+	int lerHora(){
+		return this.ponteiroHora;
+	}
+	
+	int lerMinuto(){
+		return this.ponteiroMinuto;
+		
+	}
+	
+	int lerSegundo(){
+		return this.ponteiroSegundo;
+		
+	}
+	
+
+
+}

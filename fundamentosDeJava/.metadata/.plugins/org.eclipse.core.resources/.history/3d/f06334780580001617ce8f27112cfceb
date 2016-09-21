@@ -1,0 +1,26 @@
+
+public class Modulo4Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		Modulo4Relogio relogio1 = new Modulo4Relogio();
+			relogio1.acertarRelogio(14, 55, 45);
+			int hora = relogio1.lerHora();
+			System.out.println(hora);
+			int minuto = relogio1.lerMinuto(); 
+			System.out.println(minuto);
+			int segundo = relogio1.lerSegundo();
+			System.out.println(segundo);
+		
+		Modulo4Relogio relogio2 = new Modulo4Relogio();
+			relogio2.acertarRelogio(22, 45, 59);
+			hora = relogio2.lerHora();
+			System.out.println(hora);
+			minuto = relogio2.lerMinuto();
+			System.out.println(minutos);
+			segundo = relogio2.lerSegundo();
+			System.out.println(segundo);
+			
+	}
+
+}
