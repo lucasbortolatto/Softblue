@@ -1,0 +1,12 @@
+
+public class Modulo4Turma {
+	
+	Modulo4Aluno aluno1;
+	Modulo4Aluno aluno2;
+	Modulo4Aluno aluno3;
+	
+	double calcularMedia(){
+		return 
+	}
+
+}

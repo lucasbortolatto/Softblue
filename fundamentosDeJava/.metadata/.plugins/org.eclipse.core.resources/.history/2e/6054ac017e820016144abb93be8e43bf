@@ -1,0 +1,16 @@
+
+public class Modulo4Exercicio3 {
+
+	public static void main(String[] args) {
+		
+		Modulo4Triangulo triangulo = new Modulo4Triangulo();
+			triangulo.b = 12;
+			triangulo.h = 2;
+			double a = triangulo.calcularArea();
+			System.out.println("Área do Triangulo: " + a);
+			
+		
+
+	}
+
+}

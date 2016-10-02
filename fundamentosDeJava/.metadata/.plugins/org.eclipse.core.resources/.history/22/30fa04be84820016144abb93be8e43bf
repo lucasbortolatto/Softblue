@@ -1,0 +1,14 @@
+
+public class Modulo4Aluno {
+	
+	Modulo4Prova prova1;
+	Modulo4Prova prova2;
+	
+	double calculaMedia(){
+		return (prova1*prova2)/2;
+	}
+	
+	
+	
+
+}

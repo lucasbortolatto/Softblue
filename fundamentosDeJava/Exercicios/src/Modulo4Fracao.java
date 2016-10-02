@@ -14,5 +14,6 @@ public class Modulo4Fracao {
 		this.denominador *= denominador;
 		System.out.println("Resultado: " + this.numerador + "/" + this.denominador);		
 	}
-
+	
 }
+

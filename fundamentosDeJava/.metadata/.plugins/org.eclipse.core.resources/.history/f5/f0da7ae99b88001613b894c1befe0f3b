@@ -1,0 +1,46 @@
+
+public class Modulo4Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		Modulo4Turma turma1 = new Modulo4Turma();
+			turma1.aluno1.prova1.notaParte1 = 4.0;
+			turma1.aluno1.prova1.notaParte2 = 2.5;
+			turma1.aluno1.prova2.notaParte1 = 1.0;
+			turma1.aluno1.prova2.notaParte2 = 7.0;
+			turma1.aluno2.prova1.notaParte1 = 6.5;
+			turma1.aluno2.prova1.notaParte2 = 3.5;
+			turma1.aluno2.prova2.notaParte1 = 0.0;
+			turma1.aluno2.prova2.notaParte2 = 3.0;
+			turma1.aluno3.prova1.notaParte1 = 5.0;
+			turma1.aluno3.prova1.notaParte2 = 4.0;
+			turma1.aluno3.prova2.notaParte1 = 6.0;
+			turma1.aluno3.prova2.notaParte2 = 1.5;			
+			
+			double aluno1Nota1 = turma1.aluno1.prova1.calculaNotaTotal();
+			System.out.println("Aluno1 Nota 1: " + aluno1Nota1);
+			double aluno1Nota2 = turma1.aluno1.prova2.calculaNotaTotal();
+			System.out.println("Aluno1 Nota 2: " + aluno1Nota2);
+			double aluno2Nota1 = turma1.aluno2.prova1.calculaNotaTotal();
+			System.out.println("Aluno2 Nota 1: " + aluno2Nota1);
+			double aluno2Nota2 = turma1.aluno2.prova2.calculaNotaTotal();
+			System.out.println("Aluno2 Nota 2: " + aluno2Nota2);
+			double aluno3Nota1 = turma1.aluno3.prova1.calculaNotaTotal();
+			System.out.println("Aluno3 Nota 1: " + aluno3Nota1);
+			double aluno3Nota2 = turma1.aluno3.prova2.calculaNotaTotal();
+			System.out.println("Aluno3 Nota 2: " + aluno3Nota2);
+			
+			double aluno1Media = turma1.aluno1.calculaMedia();
+			System.out.println("Aluno1 Media: " + aluno1Media);
+			double aluno2Media = turma1.aluno2.calculaMedia();
+			System.out.println("Aluno2 Media: " + aluno2Media);
+			double aluno3Media = turma1.aluno3.calculaMedia();
+			System.out.println("Aluno3 Media: " + aluno3Media);
+			
+			double mediaSala = turma1.calcularMedia();
+			System.out.println("Media da sala: " + mediaSala);
+			
+
+	}
+
+}

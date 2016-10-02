@@ -1,0 +1,9 @@
+
+public class Modulo4Quadrado {
+	double l = 1;
+	
+	double calculaArea(){
+		return l*2;
+	}
+
+}
