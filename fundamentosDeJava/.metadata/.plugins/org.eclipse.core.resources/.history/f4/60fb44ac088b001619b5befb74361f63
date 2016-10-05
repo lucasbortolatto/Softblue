@@ -1,0 +1,14 @@
+
+public class Modulo6Figura {
+	
+	double area;
+
+	public double calcularArea(String figura, double area){
+		if (figura == retangulo){
+			this.area = 
+		}
+		return area;
+		
+	}
+
+}

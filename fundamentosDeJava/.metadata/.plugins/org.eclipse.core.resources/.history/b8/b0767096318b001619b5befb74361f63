@@ -1,0 +1,12 @@
+
+public class Modulo6Calculador {
+
+	public static void main(String[] args) {
+		Modulo6Figura quadrado = new Modulo6Figura(2);
+		quadrado.getArea();
+		
+		
+
+	}
+
+}

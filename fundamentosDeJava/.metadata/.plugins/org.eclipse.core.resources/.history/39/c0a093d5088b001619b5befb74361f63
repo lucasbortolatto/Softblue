@@ -1,0 +1,11 @@
+
+public class Modulo6Figura {
+	
+	double area;
+
+	public double calcularRetangulo(double lado1, double lado2){
+		return lado1*lado2;
+		
+	}
+
+}

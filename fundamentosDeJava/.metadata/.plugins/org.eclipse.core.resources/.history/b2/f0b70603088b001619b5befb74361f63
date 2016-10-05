@@ -1,0 +1,10 @@
+
+public class Modulo6Figura {
+
+	
+	public double calcularArea(String figura, double area){
+		return area;
+		
+	}
+
+}

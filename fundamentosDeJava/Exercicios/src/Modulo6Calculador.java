@@ -2,7 +2,14 @@
 public class Modulo6Calculador {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Modulo6Figura quadrado = new Modulo6Figura(2);
+		quadrado.imprimeArea();
+		
+		Modulo6Figura retangulo = new Modulo6Figura(5,3);
+		retangulo.imprimeArea();
+		
+		
+		
 
 	}
 

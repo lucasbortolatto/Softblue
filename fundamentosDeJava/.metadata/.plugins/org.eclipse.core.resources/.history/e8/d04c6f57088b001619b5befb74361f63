@@ -1,0 +1,6 @@
+
+public class Modulo6Retangulo {
+	double base;
+	double altura;
+
+}

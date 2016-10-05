@@ -1,20 +1,26 @@
 
 public class Modulo6Figura {
 	
-	public class Modulo6Retangulo extends Modulo6Figura{
-		
+	private double area;
+
+	public Modulo6Figura(double lado) {
+		area = lado * lado;
 	}
 	
-	public class Modulo6Quadrado extends Modulo6Figura{
-		
-	}
-	
-	public class Modulo6FiguraComplexa extends Modulo6Figura{
-		
+	public Modulo6Figura(double lado1, double lado2){
+		area = lado1 * lado2;
 	}
 	
 	public double calcularArea(){
-		
+		return this.area;
 	}
+
+	public void imprimeArea(){
+		System.out.println(area);
+	}
+	
+
+	
+	
 
 }

@@ -1,0 +1,10 @@
+
+public class Modulo6FiguraComplexa extends Modulo6Figura {
+
+	public Modulo6FiguraComplexa(double lado) {
+		super(lado);
+	
+	}
+	
+
+}
