@@ -1,0 +1,16 @@
+
+public class Modulo6VeiculoTesta {
+
+	public static void main(String[] args) {
+		
+		Modulo6Veiculo veiculo = new Modulo6Veiculo();
+		
+		veiculo.isLigado();
+		veiculo.ligar();
+		veiculo.desligar();
+		veiculo.isLigado()
+		
+
+	}
+
+}

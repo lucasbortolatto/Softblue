@@ -1,0 +1,8 @@
+
+public class Modulo6Automovel extends Modulo6Veiculo {
+	boolean ligado;
+	
+	
+	
+
+}

@@ -1,0 +1,19 @@
+
+public class Modulo6Motocicleta extends Modulo6Automovel {
+	
+	@Override
+	public void ligar(){
+		super.ligar();
+	}
+	
+	@Override
+	public void desligar(){
+		super.desligar();
+	}
+	
+	
+	
+	
+	
+
+}

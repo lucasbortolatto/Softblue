@@ -1,0 +1,19 @@
+
+public class Modulo6Ponto2D {
+	private double x;
+	private double y;
+	
+	public Modulo6Ponto2D(double x, double y){	
+
+	}
+
+	@Override
+	public String toString() {
+		return "Modulo6Ponto2D [x=" + x + ", y=" + y + "]";
+	}
+	
+	public void print(){
+		System.out.println(x,y);
+	}
+	
+}

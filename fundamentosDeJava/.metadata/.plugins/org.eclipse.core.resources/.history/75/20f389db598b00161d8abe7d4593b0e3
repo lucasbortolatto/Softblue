@@ -1,0 +1,13 @@
+
+public class Modulo6Figura {
+	
+	private double area;
+	
+	public double calcularArea(){
+		return 0.0;
+	}
+
+	
+	
+
+}

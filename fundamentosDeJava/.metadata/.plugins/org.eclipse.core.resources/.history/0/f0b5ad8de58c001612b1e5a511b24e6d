@@ -1,0 +1,31 @@
+
+public class Modulo6VeiculoTesta {
+
+	public static void main(String[] args) {
+		
+		Modulo6Veiculo veiculo = new Modulo6Veiculo();
+	
+		veiculo.ligar();
+		veiculo.desligar();
+		System.out.println(veiculo.isLigado());
+		System.out.println(" ");
+		
+		Modulo6Automovel automovel = new Modulo6Automovel();
+
+		automovel.ligar();
+		automovel.desligar();
+		System.out.println(automovel.isLigado());
+		System.out.println(" ");
+		
+		Modulo6Automovel motocicleta = new Modulo6Automovel();
+		
+		motocicleta.ligar();
+		motocicleta.desligar();
+		System.out.println(motocicleta.isLigado());
+		System.out.println(" ");
+		
+		
+
+	}
+
+}

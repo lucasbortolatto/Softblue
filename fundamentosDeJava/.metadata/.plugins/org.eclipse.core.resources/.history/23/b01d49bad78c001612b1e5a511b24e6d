@@ -1,0 +1,10 @@
+
+public class Modulo6Ponto3D extends Modulo6Ponto2D {
+	int x;
+	int y;
+	int z;
+	
+	
+	
+
+}

@@ -1,0 +1,9 @@
+
+public class Modulo6Ponto2D {
+	private double x;
+	private double y;
+	
+	public Modulo6Ponto2D(double x, double y){
+		
+	}
+}

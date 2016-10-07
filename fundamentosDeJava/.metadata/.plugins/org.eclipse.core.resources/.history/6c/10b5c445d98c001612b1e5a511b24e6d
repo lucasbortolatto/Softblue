@@ -1,0 +1,10 @@
+
+public class Modulo6Ponto2D3DTeste {
+
+	public static void main(String[] args) {
+		Modulo6Ponto2D ponto2D = new Modulo6Ponto2D(2,5);
+		
+
+	}
+
+}

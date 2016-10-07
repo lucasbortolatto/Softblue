@@ -1,0 +1,6 @@
+
+public class Modulo6Retangulo {
+	private double lado1;
+	private double lado2;
+
+}
