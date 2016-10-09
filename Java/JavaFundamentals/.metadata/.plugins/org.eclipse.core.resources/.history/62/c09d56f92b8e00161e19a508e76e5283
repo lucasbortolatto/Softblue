@@ -42,7 +42,7 @@ public class Porta implements Cloneable {
 	@Override
 	public Object clone(){
 		Porta porta = new Porta(this.altura,this.largura);
-		System.out.println("Esta e uma copia da porta...");
+		System.out.println("Copiando a porta");
 		return porta;
 		
 	}

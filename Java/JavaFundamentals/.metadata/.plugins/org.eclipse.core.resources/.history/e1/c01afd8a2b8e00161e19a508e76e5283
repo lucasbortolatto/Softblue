@@ -8,15 +8,14 @@ public class Porta implements Cloneable {
 		this.altura = altura;
 		System.out.println("Altura setada com sucesso para " + altura);
 		this.largura = largura;
-		System.out.println("Largura setada com sucesso para " + largura);
+		System.out.println("A porta foi aberta");
 		
 		this.aberta = false;
-		System.out.println("Porta fechada");
+		System.out.println("A porta esta fechada");
 	}
 	
 	public void abrir(){
 		aberta = true;
-		System.out.println("A porta foi aberta");
 		
 	}
 	
@@ -42,7 +41,7 @@ public class Porta implements Cloneable {
 	@Override
 	public Object clone(){
 		Porta porta = new Porta(this.altura,this.largura);
-		System.out.println("Esta e uma copia da porta...");
+		System.out.println("Copiando a porta");
 		return porta;
 		
 	}
