@@ -1,0 +1,9 @@
+INDEX VERSION 1.129+C:\GitProjects\Softblue\Java\JavaFundamentals\.metadata\.plugins\org.eclipse.jdt.core
+2765117817.index
+984927450.index
+1303641164.index
+1037633731.index
+2970983199.index
+2747112800.index
+1256077397.index
+3554109935.index
