@@ -1,0 +1,15 @@
+
+public class TestaConta {
+
+	public static void main(String[] args) {
+		
+		ContaBancaria corrente = new ContaCorrente();
+		System.out.println("Saldo Atual: " + corrente.saldo);
+		
+		
+		
+		
+
+	}
+
+}
