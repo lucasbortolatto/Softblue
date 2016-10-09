@@ -15,12 +15,6 @@ public class TestaConta {
 		saldo = investimento.calcularSaldo();
 		System.out.println("Saldo Atual Conta 2: " + saldo);
 		
-		corrente.transferir(500, investimento);
-		saldo = corrente.calcularSaldo();
-		System.out.println("Saldo Atual Conta 1: " + saldo);
-		saldo = investimento.calcularSaldo();
-		System.out.println("Saldo Atual Conta 2: " + saldo);
-		
 		
 		
 		

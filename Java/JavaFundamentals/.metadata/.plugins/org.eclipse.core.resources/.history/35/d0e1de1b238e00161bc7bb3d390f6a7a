@@ -7,7 +7,7 @@ public abstract class ContaBancaria {
 	}
 	
 	public void sacar(double valor){
-		saldo -= valor;
+		saldo += valor;
 	}
 	
 	public void transferir(double valor, ContaBancaria conta){

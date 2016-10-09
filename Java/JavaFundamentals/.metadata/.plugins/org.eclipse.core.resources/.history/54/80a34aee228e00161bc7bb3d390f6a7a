@@ -3,16 +3,16 @@ public abstract class ContaBancaria {
 	protected double saldo;
 	
 	public void depositar(double valor){
-		saldo += valor;
+		saldo = saldo + valor;
 	}
 	
 	public void sacar(double valor){
-		saldo -= valor;
+		saldo = saldo - valor;
 	}
 	
-	public void transferir(double valor, ContaBancaria conta){
+	public void transferir(double valor, ContaBancaria contaBancaria){
 		sacar(valor);
-		conta.depositar(valor);
+		contaBancaria.depositar(valor);
 	}
 	
 	public double getSaldo(){

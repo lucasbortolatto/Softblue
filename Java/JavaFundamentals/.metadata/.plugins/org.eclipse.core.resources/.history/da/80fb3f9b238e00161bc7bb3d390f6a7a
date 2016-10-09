@@ -10,16 +10,11 @@ public class TestaConta {
 		System.out.println("Saldo Atual Conta 1: " + saldo);
 		
 		ContaBancaria investimento = new ContaInvestimento();
+		System.out.println("Saldo Atual: " + investimento.saldo);
 		investimento.depositar(500);
-		investimento.sacar(50);
-		saldo = investimento.calcularSaldo();
-		System.out.println("Saldo Atual Conta 2: " + saldo);
+		System.out.println("Saldo Atual: " + investimento.saldo);
 		
-		corrente.transferir(500, investimento);
-		saldo = corrente.calcularSaldo();
-		System.out.println("Saldo Atual Conta 1: " + saldo);
-		saldo = investimento.calcularSaldo();
-		System.out.println("Saldo Atual Conta 2: " + saldo);
+		System.out.println(investimento.calcularSaldo());
 		
 		
 		
