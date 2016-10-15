@@ -1,0 +1,18 @@
+
+public class ContaBancaria {
+	private double saldo;
+	
+	public double sacar(){
+		
+	}
+	
+	public double depositar(){
+		
+	}
+	
+	public double transferir(){
+		
+	}
+	
+
+}

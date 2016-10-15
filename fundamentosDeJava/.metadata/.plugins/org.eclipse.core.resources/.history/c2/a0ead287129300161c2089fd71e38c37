@@ -1,0 +1,28 @@
+
+public class ContaBancaria {
+	private double saldo;
+	
+	
+	public void sacar(double valor) throws Exception{
+		if (valor <= 0){
+			throw new Exception ("Valor inválido");
+		}
+		saldo -= valor;		
+	}
+	
+	public void depositar(double valor){
+		saldo += valor;
+	}
+	
+	public void transferir(double valor, ContaBancaria conta){
+		saldo -= valor;
+		conta.saldo += valor;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	
+
+}

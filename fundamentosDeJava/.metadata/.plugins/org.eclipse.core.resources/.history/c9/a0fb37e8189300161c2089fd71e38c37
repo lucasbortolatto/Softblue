@@ -1,0 +1,13 @@
+
+public class ValorInvalidoException extends Exception {
+	
+	double valor;
+
+	public ValorInvalidoException(double valor) {
+		this.valor = valor;
+		System.out.println("Erro: valor " + valor + "inválido");
+		
+	}
+	
+
+}

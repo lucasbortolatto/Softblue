@@ -1,0 +1,16 @@
+
+public class SaldoInsuficienteException extends Exception {
+	double saldo;
+
+	public SaldoInsuficienteException(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	
+	
+	
+}

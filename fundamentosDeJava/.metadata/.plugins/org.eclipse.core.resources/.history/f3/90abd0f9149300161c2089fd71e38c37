@@ -1,0 +1,17 @@
+
+public class SaldoInsuficienteException extends Exception {
+	double saldo;
+
+	public SaldoInsuficienteException(double saldo) {
+		this.saldo = saldo;
+		System.out.println("Valor" + valor +  "invalido para a operação");
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	
+	
+	
+}
