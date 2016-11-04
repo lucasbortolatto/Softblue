@@ -1,0 +1,14 @@
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		Produtos p1 = new Produtos();
+		Produtos p2 = new Produtos();
+		Produtos p3 = new Produtos();
+		
+		p1.setNome("Feijao");
+		p1.setPeso(2,5);
+
+	}
+
+}

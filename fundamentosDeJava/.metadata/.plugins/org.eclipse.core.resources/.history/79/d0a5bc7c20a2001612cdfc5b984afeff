@@ -1,0 +1,15 @@
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		Produtos p1 = new Produtos("Feijao", 2.5, 4, 10, 2020);
+		Produtos p2 = new Produtos("Cafe", 1, 1, 1, 2022);
+		Produtos p3 = new Produtos("Beterraba", 0.9, 12, 11, 2017);
+	
+	}
+
+}
