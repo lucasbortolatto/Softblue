@@ -1,0 +1,30 @@
+
+public class Processar {
+	String s;
+	
+//	public Processar(String s){
+//		this.s = s;
+//	}
+	
+	public String processar(String s){
+		this.s = s;
+		String s1 = s.toUpperCase();
+		return s1;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		Processar string = new Processar();
+		String s1 = string.processar("abc");
+		System.out.println(s1);
+		
+		
+		
+	
+
+	
+
+	}
+
+}
