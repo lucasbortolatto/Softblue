@@ -1,0 +1,45 @@
+
+public class Processar {
+	String s;
+	String s1;
+
+	public String processar(String s){
+		this.s = s;
+		if (s.length() <=3){
+			s1 = s.toUpperCase();
+		}
+		else{
+			s.substring(0, 3);
+			StringBuilder sb = new StringBuilder(s);
+			
+			sb.reverse();
+			s1 = sb.toString();
+			s1 = s1.toUpperCase();
+		}
+			
+			
+			
+			
+			
+		return s1;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		Processar string = new Processar();
+		String s1 = string.processar("abc");
+		System.out.println(s1);
+		Processar string1 = new Processar();
+		String s2 = string1.processar("abcde");
+		System.out.println(s2);
+		
+		
+		
+	
+
+	
+
+	}
+
+}

@@ -1,8 +1,0 @@
-
-public class Produtos {
-	
-	String nome;
-	String peso;
-	String dataValidade;
-
-}
