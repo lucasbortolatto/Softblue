@@ -1,0 +1,22 @@
+
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		String nascimento = "19/05/1955";
+		
+		LocalDateTime d1 = LocalDateTime.parse(nascimento, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+		LocalDateTime d2 = LocalDateTime.now();
+		
+		
+		
+//		Duration d = Duration.between(d1, d2); 		
+//		System.out.println("Dias: " + d.toHours());
+	}
+
+}

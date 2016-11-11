@@ -1,0 +1,19 @@
+import java.text.DateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		String nascimento = "19/05/1955";
+		
+		LocalDateTime d1 = LocalDateTime.parse(nascimento, DateTimeFormatter.ofPattern("19/05/1955"));
+		LocalDateTime d2 = LocalDateTime.now();
+		
+		
+
+	}
+
+}

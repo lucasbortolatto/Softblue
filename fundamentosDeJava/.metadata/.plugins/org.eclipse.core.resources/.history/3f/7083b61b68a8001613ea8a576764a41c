@@ -1,0 +1,16 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Exercicio3B {
+
+public static void main(String[] args){
+	String data = ("11/11/2016 03:00");
+	
+	LocalDateTime d1 = LocalDateTime.parse(data, DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"));
+	LocalDateTime d2 = LocalDateTime.now();
+	
+
+
+}
+
+}

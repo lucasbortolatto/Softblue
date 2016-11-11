@@ -1,0 +1,12 @@
+import java.time.LocalDateTime;
+
+public class Exercicio3B {
+
+public static void main(String[] args){
+	LocalDateTime d1 = LocalDateTime.now();
+	int s1 = d1.getDayOfMonth();
+	
+	System.out.println(s1);	
+}
+
+}

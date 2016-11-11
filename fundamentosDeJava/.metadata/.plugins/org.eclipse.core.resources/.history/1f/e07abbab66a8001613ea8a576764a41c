@@ -1,0 +1,11 @@
+import java.time.LocalDateTime;
+
+public class Exercicio3B {
+
+public static void main(String[] args){
+	LocalDateTime d1 = LocalDateTime.now();
+	d1 = d1.getDayOfYear();
+	System.out.println(d1);	
+}
+
+}
