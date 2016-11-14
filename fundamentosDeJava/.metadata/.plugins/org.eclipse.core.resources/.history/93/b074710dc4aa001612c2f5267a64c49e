@@ -1,0 +1,36 @@
+public enum Operacao {
+	
+	SOMA('+'),
+	SUBTRACAO('-'),
+	MULTIPLICACAO('*'),
+	DIVISAO('/');
+	
+	private char simbolo;
+	
+	Operacao(char simbolo){
+		this.simbolo = simbolo;
+	}
+	
+	public double calcular(double num1, double num2, double result, Operacao operacao){
+		if (operacao == Operacao.SOMA){
+			System.out.println("Operacao escolhida: " + simbolo);
+			result = num1 + num2;
+			
+		}else if (operacao == Operacao.SUBTRACAO){
+			System.out.println("Operacao escolhida: " + simbolo);
+			result = num1 - num2;
+			
+		}else if (operacao == Operacao.MULTIPLICACAO){
+			System.out.println("Operacao escolhida: " + simbolo);
+			result = num1 * num2;
+			
+		}else{
+			System.out.println("Operacao escolhida: " + simbolo);
+			result = num1 / num2;
+		}
+		
+		return result;
+		
+	}
+
+}

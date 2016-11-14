@@ -1,0 +1,13 @@
+import Matematica.TipoAngulo;
+
+public class AplicacaoMatematica {
+
+	public static void main(String[] args) {
+		
+		Matematica m1 = new Matematica();
+		m1.converterAngulo(2.5, TipoAngulo.GRAUS);
+		
+
+	}
+
+}

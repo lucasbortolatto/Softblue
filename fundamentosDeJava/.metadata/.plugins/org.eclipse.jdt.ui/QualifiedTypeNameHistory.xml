@@ -12,4 +12,5 @@
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="java.time.Period"/>
 <fullyQualifiedTypeName name="java.time.Duration"/>
+<fullyQualifiedTypeName name="Matematica.TipoAngulo"/>
 </qualifiedTypeNameHistroy>

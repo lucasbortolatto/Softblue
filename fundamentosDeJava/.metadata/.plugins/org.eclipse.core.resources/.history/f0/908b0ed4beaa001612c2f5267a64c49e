@@ -1,0 +1,20 @@
+
+public class Matematica {
+	Double angulo;
+	TipoAngulo tipo;
+	
+	Double converterAngulo(Double angulo, TipoAngulo tipo){
+		this.angulo = angulo;
+		this.tipo = tipo;
+		if (tipo == tipo.GRAUS){
+			System.out.println("Escolhido: " + tipo.GRAUS);
+			angulo = Math.toRadians(angulo);
+		}else{
+			System.out.println("Escolhido: " + tipo.RADIANOS);
+			angulo = Math.toDegrees(angulo);
+		}		
+		return angulo;
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class AplicacaoOperacao {
+
+	public static void main(String[] args) {
+		Operacao operacao = Operacao.SOMA;
+		operacao.calcular(2, 4, 6, Operacao.SOMA);
+		operacao.calcular(2, 4, 6, Operacao.SUBTRACAO);
+		operacao.calcular(2, 4, 6, Operacao.MULTIPLICACAO);
+		operacao.calcular(2, 4, 6, Operacao.DIVISAO);
+	}
+
+}

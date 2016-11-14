@@ -1,0 +1,19 @@
+
+public class Matematica {
+	Double angulo;
+	TipoAngulo tipo;
+	
+	Double converterAngulo(Double angulo, TipoAngulo tipo){
+		this.angulo = angulo;
+		this.tipo = tipo;
+		if (tipo == tipo.GRAUS){
+			System.out.println(tipo.GRAUS);
+		}else{
+			System.out.println(tipo.RADIANOS);
+		}
+			
+		return 1.1;
+		
+	}
+
+}

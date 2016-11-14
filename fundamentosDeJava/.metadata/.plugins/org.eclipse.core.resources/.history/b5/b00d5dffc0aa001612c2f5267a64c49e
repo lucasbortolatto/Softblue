@@ -1,0 +1,7 @@
+public enum Operacao {
+	SOMA("+"),
+	SUBTRACAO(2),
+	MULTIPLICACAO(3),
+	DIVISAO(4);
+
+}

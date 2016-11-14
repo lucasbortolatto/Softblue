@@ -1,0 +1,14 @@
+public enum Operacao {
+	
+	SOMA('+'),
+	SUBTRACAO("-"),
+	MULTIPLICACAO("*"),
+	DIVISAO("/");
+	
+	private char simbolo;
+	
+	Operacao(char simbolo){
+		this.simbolo = simbolo;
+	}
+
+}
