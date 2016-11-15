@@ -1,17 +1,16 @@
 
 public class Matematica {
+	Double angulo;
+	TipoAngulo tipo;
 	
-	public enum TipoAngulo{
-		GRAUS,
-		RADIANOS;
-}
-	
-	public static Double converterAngulo(Double angulo, TipoAngulo tipo){
-		if (tipo == TipoAngulo.GRAUS){
-			System.out.println("Conversão de " + TipoAngulo.GRAUS + " em " + TipoAngulo.RADIANOS + ":");
+	public Double converterAngulo(Double angulo, TipoAngulo tipo){
+		this.angulo = angulo;
+		this.tipo = tipo;
+		if (tipo == tipo.GRAUS){
+			System.out.println("Conversão de " + tipo.GRAUS + " em " + tipo.RADIANOS + ":");
 			angulo = Math.toRadians(angulo);
 		}else{
-			System.out.println("Conversão de " + TipoAngulo.RADIANOS + " em " + TipoAngulo.GRAUS + ":");
+			System.out.println("Conversão de " + tipo.RADIANOS + " em " + tipo.GRAUS + ":");
 			angulo = Math.toDegrees(angulo);
 		}		
 		return angulo;
@@ -25,7 +24,7 @@ public class Matematica {
 	
 	public static Integer converterBinarioParaDecimal(String numBinario){
 		System.out.println("Conversão do número binário " + numBinario + " para decimal:");
-		return Integer.valueOf(numBinario, 2);
+		return Integer.parseInt(numBinario, 2);
 		
 	}
 	

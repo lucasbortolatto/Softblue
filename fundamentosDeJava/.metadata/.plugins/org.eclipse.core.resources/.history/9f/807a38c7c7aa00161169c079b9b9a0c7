@@ -16,23 +16,24 @@ public enum Operacao {
 			System.out.println("Operacao escolhida: " + simbolo);
 			return num1 + num2;
 			
-		}else if (this == SUBTRACAO){
+		}else if (operacao == Operacao.SUBTRACAO){
+			this.simbolo = simbolo;
 			System.out.println("Operacao escolhida: " + simbolo);
-			return num1 - num2;
+			result = num1 - num2;
 			
-		}else if (this == MULTIPLICACAO){
+		}else if (operacao == Operacao.MULTIPLICACAO){
+			this.simbolo = simbolo;
 			System.out.println("Operacao escolhida: " + simbolo);
-			return num1 * num2;
+			result = num1 * num2;
 			
 		}else{
+			this.simbolo = simbolo;
 			System.out.println("Operacao escolhida: " + simbolo);
-			return num1 / num2;
+			result = num1 / num2;
 		}
 		
-	}
-	
-	public String toString(){
-		return String.valueOf(simbolo);
+		return result;
+		
 	}
 
 }

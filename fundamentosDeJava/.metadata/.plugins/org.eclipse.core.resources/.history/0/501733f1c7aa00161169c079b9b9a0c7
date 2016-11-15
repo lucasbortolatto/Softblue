@@ -30,9 +30,5 @@ public enum Operacao {
 		}
 		
 	}
-	
-	public String toString(){
-		return String.valueOf(simbolo);
-	}
 
 }

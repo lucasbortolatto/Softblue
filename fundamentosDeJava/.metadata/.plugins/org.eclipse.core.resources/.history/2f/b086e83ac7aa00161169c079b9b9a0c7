@@ -6,7 +6,7 @@ public class Matematica {
 		RADIANOS;
 }
 	
-	public static Double converterAngulo(Double angulo, TipoAngulo tipo){
+	public Double converterAngulo(Double angulo, TipoAngulo tipo){
 		if (tipo == TipoAngulo.GRAUS){
 			System.out.println("Conversão de " + TipoAngulo.GRAUS + " em " + TipoAngulo.RADIANOS + ":");
 			angulo = Math.toRadians(angulo);
